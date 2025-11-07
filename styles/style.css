@@ -2,4 +2,21 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  font-family: var(--project-font-family);
+  font-size: var(--regular-font-size);
+  background-image: var(--background-image);
+  background-color: var(--page-bg-color);
+  font-weight: bold;
+  line-height: 1.3;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header_text {
+  background-color: var(--header-text-bg-color);
+  color: var(--header-text-color);
+  font-weight: bold;
+  font-size: inherit;
+  margin: var(--decoration-gap);
+  font: inherit;
 }
