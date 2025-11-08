@@ -78,13 +78,13 @@
 }
 
 .decorated-zone::before {
+  position: absolute;
+  width: 25px;
+  height: 25px;
   border-top: var(--corner-thickness) solid var(--deco-color);
   border-right: var(--corner-thickness) solid var(--deco-color);
   top: var(--decoration-gap);
   right: var(--decoration-gap);
-  position: absolute;
-  width: 25px;
-  height: 25px;
 }
 
 .decorated-zone::after {
@@ -158,6 +158,11 @@
   flex-direction: column;
   gap: 10px;
   padding-top: 20px;
+}
+
+.advice_title_main {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .advice_title {
@@ -343,13 +348,7 @@
   --rec_empty_x_pos: 40px;
   }
   .section_topic2 {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "question_topic2 ."
-      "answers_topic2 answers_topic2";
-    gap: 10px;
+    margin-top: 50px;
   }
   .header {
     --min-height: 768px;
