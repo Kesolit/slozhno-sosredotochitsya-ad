@@ -308,7 +308,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-areas:
-    'question_why answers_why';
+    'question_topic1 answers_topic1';
     gap: 20px;
   }
   .section_topic2 {
@@ -320,7 +320,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-areas:
-    'question_how answers_how';
+    'question_topic3 answers_topic3';
     gap: 20px;
     margin-top: 61px;
   }
@@ -347,8 +347,8 @@
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
     grid-template-areas:
-      "question_what ."
-      "answers_what answers_what";
+      "question_topic2 ."
+      "answers_topic2 answers_topic2";
     gap: 10px;
   }
   .header {
@@ -395,7 +395,7 @@
   }
 
   .question_topic2 {
-    display: grid;
+    display: block;
     grid-area: question_topic2;
     width: 30%;
   }
