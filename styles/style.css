@@ -310,6 +310,7 @@
     margin-top: 20px;
   }
   .section_topic1 {
+    align-items: baseline;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-areas:
